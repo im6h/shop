@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="icon-bag" horiz-adv-x="1000" >
+<font-face font-family="icon-bag" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="bag" unicode="&#xe800;" d="m835 668q28-26 24-60l-98-648q-8-30-38-30l-586 0q-28 0-40 30-94 620-96 648-5 34 22 60 6 6 54 43t56 43q18 16 56 16l480 0q38 0 56-16 78-58 110-86z m-406-436q56 0 98 34t63 89 30 89 13 66l-92 0q-38-188-112-188t-112 188l-92 0q46-278 204-278z m-352 368l704 0-110 116-484 0z" horiz-adv-x="859" />
+</font>
+</defs>
+</svg>
