@@ -83,7 +83,7 @@ class ShoppingCartController extends FrontendController
     {
         $totalMoney = str_replace(',','',Cart::subtotal(0,3));
         $transactionId = Transaction::insertGetId([
-            'tr_user_id' => get_data_user('web'),//mac dinh lay id
+            'tr_user_id' => get_data_user('web'),
             'tr_total' => $totalMoney,
             'tr_note' => $request->note,
             'tr_address' =>$request->address,
@@ -105,7 +105,6 @@ class ShoppingCartController extends FrontendController
           ]);
            }
         }
-
          //gui thong tin gio hang qua mail
         $data = [
            'address' => $request->address
@@ -113,13 +112,9 @@ class ShoppingCartController extends FrontendController
         $email = $request->email;
         $checkUser = User::where('email',$email)->first();
         Mail::to($email)->send(new ProductPlaces($products,$data));
-
          //xoa gio hang sau khi dat hang thanh cong
         Cart::destroy();
-        
-       
        // $url = route('get.link.reset.password',['code'=> $checkUser->code,'email'=>$email]);
-     
         return redirect()->back()->with('alert', 'Mua hàng công, cảm ơn bạn đã mua hàng ở website chúng tôi,vui lòng kiểm tra email của bạn để biết chi tiết đơn hàng!');;
     }
 }

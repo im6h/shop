@@ -63,7 +63,7 @@
                   <div class="exp-tags">
                      <div class="tags">
                         <a href="#">Nokia</a>
-                        <a href="#">Samsum</a>
+                        <a href="#">Samsung</a>
                         <a href="#">Giá rẻ</a>
                         <a href="#">Hàng củ</a>
                         <a href="#">Iphone</a>
